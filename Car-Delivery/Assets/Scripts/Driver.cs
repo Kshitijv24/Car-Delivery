@@ -14,8 +14,8 @@ public class Driver : MonoBehaviour
         transform.Translate(0, moveAmount, 0);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("I hit: " + collision.gameObject.name);
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    Debug.Log("I hit: " + collision.gameObject.name);
+    //}
 }
